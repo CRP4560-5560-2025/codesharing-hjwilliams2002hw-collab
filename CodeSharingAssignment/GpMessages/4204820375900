@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, December 3, 2025 2:58:42 PM</msg><msg code="0" type="0">Loading CSV file...</msg><msg code="0" type="0">Converting GeoJSON to Feature Class...</msg><msg code="0" type="0">Creating feature layer...</msg><msg code="0" type="0">Loading CSV table into ArcGIS...</msg><msg code="0" type="0">Joining CSV to GeoJSON features...</msg><msg code="0" type="0">Creating bar chart PNG...</msg><msg code="1" type="100">Traceback (most recent call last):
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\Lib\site-packages\pandas\core\indexes\base.py", line 3629, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Total'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "&lt;string&gt;", line 144, in execute
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\Lib\site-packages\pandas\core\frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\Lib\site-packages\pandas\core\indexes\base.py", line 3631, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Total'
+</msg><msg code="-2147467259" type="100">Failed to execute (CensusJoinTool).</msg><msg code="0" type="3">Failed at Wednesday, December 3, 2025 2:58:44 PM (Elapsed Time: 1.31 seconds)</msg></messages>
